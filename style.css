@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css?family=Knewave|Permanent+Marker|Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  position: relative;
+  background-color: #fcf6ba;
+  box-sizing: border-box;
+  border-top: solid 30px #116584;
+  border-bottom: solid 30px #116584;
+  overflow: hidden;
+}
+
+.Top {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background-color: #3e6e44;
+  color: #ffffff;
+  border-radius: 100px 1200px 0px 1200px;
+  margin-top: -100px;
+  margin-left: -75px;
+  font-family: 'Righteous', cursive;
+  font-family: 'Knewave', cursive;
+  font-family: 'Permanent Marker', cursive;
+}
+.Top h3 {
+  margin-left: 125px;
+  margin-top: 115px;
+  font-size: 25px;
+  width: 100px;
+  line-height: 60px;
+}
+.Top h3 span {
+  background-color: orange;
+  font-size: 40px;
+}
+
+.Top:hover {
+  transform: translate(5px, 5px);
+  box-shadow: 10px 15px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  left: 100%;
+}
+
+.namecard {
+  position: fixed;
+  width: 300px;
+  height: 230px;
+  left: 50%;
+  top: 50%;
+  padding: 0px 20px 30px 20px;
+  overflow: hidden;
+  background-color: #3e6e44;
+  color: #ffffff;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 20px 25px 15px -15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 'Noto Sans TC', sans-serif;
+  transition: 0.5s;
+}
+.namecard hr {
+  border-color: orange;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+.namecard h2 {
+  font-size: 25px;
+}
+.namecard span {
+  font-size: 18px;
+  font-family: 'Righteous', cursive;
+  font-family: 'Knewave', cursive;
+  font-family: 'Permanent Marker', cursive;
+}
+.namecard h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.namecard li {
+  font-size: 14px;
+}
+
+.namecard:hover {
+  transform: translate(-50px, -50px);
+  box-shadow: -20px -25px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.allbub {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  z-index: -3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #333;
+}
+@keyframes falling {
+  0%,100% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  0% {
+    transform: translate(100%, 0px);
+  }
+  100% {
+    transform: translate(0px, 100%);
+  }
+}
+.allbub [class*='bub'] {
+  background-color: #fff;
+  width: 1px;
+  height: 50px;
+  border-radius: 10px;
+  animation: falling 2s infinite;
+}
+
+.bub1 {
+  position: absolute;
+  left: 78.2832640591%;
+  top: 0.1059152392%;
+  animation-delay: -0.1s;
+}
+
+.bub2 {
+  position: absolute;
+  left: 37.1328178201%;
+  top: 48.3126678076%;
+  animation-delay: -0.2s;
+}
+
+.bub3 {
+  position: absolute;
+  left: 43.4813024416%;
+  top: 1.3174148343%;
+  animation-delay: -0.3s;
+}
+
+.bub4 {
+  position: absolute;
+  left: 40.9532686026%;
+  top: 44.0537439621%;
+  animation-delay: -0.4s;
+}
+
+.bub5 {
+  position: absolute;
+  left: 29.2234063573%;
+  top: 75.5065872314%;
+  animation-delay: -0.5s;
+}
+
+.bub6 {
+  position: absolute;
+  left: 22.3063626128%;
+  top: 43.7122999611%;
+  animation-delay: -0.6s;
+}
+
+.bub7 {
+  position: absolute;
+  left: 19.5590955787%;
+  top: 17.1031148655%;
+  animation-delay: -0.7s;
+}
+
+.bub8 {
+  position: absolute;
+  left: 26.9130501028%;
+  top: 21.7618550973%;
+  animation-delay: -0.8s;
+}
+
+.bub9 {
+  position: absolute;
+  left: 80.2316600641%;
+  top: 4.7509985222%;
+  animation-delay: -0.9s;
+}
+
+.bub10 {
+  position: absolute;
+  left: 91.1695206093%;
+  top: 15.0615298144%;
+  animation-delay: -1s;
+}
+
+.bub11 {
+  position: absolute;
+  left: 39.7600602799%;
+  top: 72.5616006756%;
+  animation-delay: -1.1s;
+}
+
+.bub12 {
+  position: absolute;
+  left: 35.2986243795%;
+  top: 76.1755559768%;
+  animation-delay: -1.2s;
+}
+
+.bub13 {
+  position: absolute;
+  left: 66.4660234557%;
+  top: 5.6500086431%;
+  animation-delay: -1.3s;
+}
+
+.bub14 {
+  position: absolute;
+  left: 12.9586838009%;
+  top: 67.3488689056%;
+  animation-delay: -1.4s;
+}
+
+.bub15 {
+  position: absolute;
+  left: 75.4144415996%;
+  top: 19.9363803272%;
+  animation-delay: -1.5s;
+}
+
+.bub16 {
+  position: absolute;
+  left: 8.1511447271%;
+  top: 86.8334147578%;
+  animation-delay: -1.6s;
+}
+
+.bub17 {
+  position: absolute;
+  left: 85.2320716797%;
+  top: 69.0254718891%;
+  animation-delay: -1.7s;
+}
+
+.bub18 {
+  position: absolute;
+  left: 60.7301246076%;
+  top: 57.7297670251%;
+  animation-delay: -1.8s;
+}
+
+.bub19 {
+  position: absolute;
+  left: 55.2933508791%;
+  top: 55.2012943111%;
+  animation-delay: -1.9s;
+}
+
+.bub20 {
+  position: absolute;
+  left: 59.9590109727%;
+  top: 44.1177011254%;
+  animation-delay: -2s;
+}
+
+@keyframes back {
+  0% {
+    background-color: #ffd2ad;
+  }
+  25% {
+    background-color: #ffa791;
+  }
+  50% {
+    background-color: #e0d83e;
+  }
+  75% {
+    background-color: #3dcc6a;
+  }
+  100% {
+    background-color: #ffd2ad;
+  }
+}
+.allbub {
+  animation: back 8s infinite;
+}
+
+@keyframes title {
+  0% {
+    margin-top: -200px;
+    margin-left: -300px;
+  }
+  50% {
+    margin-top: -75px;
+    margin-left: -50px;
+  }
+  100% {
+    margin-top: -100px;
+    margin-left: -75px;
+  }
+}
+.Top {
+  animation-name: title;
+  animation-duration: 1.5s;
+}
